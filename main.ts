@@ -1,8 +1,9 @@
+// Fortune Cookie for the Liquidated Trader: the numbers are all gone.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const line =
-  "Lucky numbers: 0, 0, 0, 0. Your portfolio spent them all on leverage.";
+  "Your lucky numbers are 0, 0, 0, and 0. You spent the rest on 100x leverage. The cookie is also liquidated.";
 
 // The gate allows 1-160 characters; refuse to write an over-long text.
 if (line.length < 1 || line.length > 160) {
