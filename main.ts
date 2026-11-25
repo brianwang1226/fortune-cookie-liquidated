@@ -1,4 +1,5 @@
-// Fortune Cookie for the Liquidated Trader: the numbers are all gone.
+// Fortune Cookie for the Liquidated Trader: the lucky numbers are all spent,
+// and the cookie itself did not survive the margin call.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
